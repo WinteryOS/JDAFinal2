@@ -1,4 +1,3 @@
-import net.dv8tion.jda.api.entities.User;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
@@ -14,7 +13,7 @@ public class Reactions extends ListenerAdapter implements EventListener, Command
             System.out.println("User has said bad word");
             event.getMessage().delete().queue();
             event.getAuthor().openPrivateChannel().queue();
-//aaaa
+//aaaa jklljklj
 
 
 
