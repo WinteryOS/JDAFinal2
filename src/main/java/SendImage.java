@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class SendImage extends ListenerAdapter implements EventListener, Commands {
-    @Override
+
     public void onGuildMessageReceived(GuildMessageReceivedEvent event) {
 
         String[] args = event.getMessage().getContentRaw().split(" ");

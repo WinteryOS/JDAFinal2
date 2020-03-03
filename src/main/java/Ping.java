@@ -7,9 +7,6 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class Ping extends ListenerAdapter implements EventListener, Commands {
 
-
-
-    @Override
     public void onGuildMessageReceived(GuildMessageReceivedEvent event) {
 
         String[] args = event.getMessage().getContentRaw().split(" ");
