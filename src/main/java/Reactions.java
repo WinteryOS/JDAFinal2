@@ -14,7 +14,7 @@ public class Reactions extends ListenerAdapter implements EventListener, Command
             System.out.println("User has said bad word");
             event.getMessage().delete().queue();
             event.getAuthor().openPrivateChannel().queue();
-
+//aaaa
 
 
 
